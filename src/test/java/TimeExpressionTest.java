@@ -85,7 +85,7 @@ public class TimeExpressionTest extends TestCase {
     }
 
     public void testRecursEveryTwoMonthsTheSeconthDay() {
-        int twoMonth = 1; // you can change the Int type by the one you make up
+        int twoMonth = 2; // you can change the Int type by the one you make up
         int theSecondDay = 2; // you can change the Int type by the one you make up
         YearMonth january2012 = YearMonth.of(2012, 1);
         YearMonth may2012 = YearMonth.of(2012, 5);
