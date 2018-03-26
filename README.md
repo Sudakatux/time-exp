@@ -1,5 +1,3 @@
-# [English]
-
 # Time expressions
 
 A time expression is an expression that happens (or not) in a recurrent way
@@ -34,50 +32,8 @@ Write the corresponding implementations in `TimeExpression` to pass the test cas
 
 ## Why do I have to do it ?
 
-We want to see how you write the model of the domain and how you apply TDD as a software development technique
+We want to see how you design the model of the domain and how you apply TDD as a software development technique
 
 # Important !
 
 In the test cases you can create new types that replace primitives like `int`.
-
-# [Español]
-
-# Dominio de problema: Expresiones temporales
-
-Una expresión temporal es una expresión que recurre o no en el continuo.
-
-Ejemplos de expresiones:
-
-## No recurrentes
-
-El jueves 22 de febrero del 2018.
-
-## Recurrentes
-
-### Cada X día/s desde una fecha hasta otra fecha
-
-Cada 3 días desde el jueves 22 de febrero del 2018 hasta el 15 de marzo del 2018.
-
-### El día Y cada X mes/es desde un mes de año hasta otro mes de año
-
-El día 8 de cada mes desde enero del 2018 hasta agosto del 2019.
-
-### El Y cada X mes/es desde un mes de año hasta otro mes de año
-
-El 3er viernes cada 2 meses desde enero del 2018 hasta agosto del 2019.
-
-### El Y cada X año/s desde un año hasta otro año
-
-El 8 de agosto todos los años desde el 2018 hasta el 2024.
-
-# ¿Qué tengo que hacer?
-
-Escribir las implementaciones correspondientes en `TimeExpression` para que pasen los test cases de `TimeExpressionTest`.
-
-## ¿Por qué?
-
-Queremos ver cómo modelas el dominio y, en este caso, aplicando TDD como técnica de desarrollo de software.
-
-# ¡Importante!
-
-En los test cases podés crear nuevos tipos que reemplacen a los primitivos como `int`.
